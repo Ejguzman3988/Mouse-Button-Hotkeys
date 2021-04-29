@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACEB0646263A554E00119FA2 /* Mouse_Button_HotkeysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEB0645263A554E00119FA2 /* Mouse_Button_HotkeysApp.swift */; };
+		ACEB0648263A554E00119FA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEB0647263A554E00119FA2 /* ContentView.swift */; };
+		ACEB064A263A555000119FA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEB0649263A555000119FA2 /* Assets.xcassets */; };
+		ACEB064D263A555000119FA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEB064C263A555000119FA2 /* Preview Assets.xcassets */; };
+		ACEB0659263A555000119FA2 /* Mouse_Button_HotkeysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEB0658263A555000119FA2 /* Mouse_Button_HotkeysTests.swift */; };
+		ACEB0664263A555000119FA2 /* Mouse_Button_HotkeysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEB0663263A555000119FA2 /* Mouse_Button_HotkeysUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACEB0655263A555000119FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACEB063A263A554E00119FA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACEB0641263A554E00119FA2;
+			remoteInfo = "Mouse-Button-Hotkeys";
+		};
+		ACEB0660263A555000119FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACEB063A263A554E00119FA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACEB0641263A554E00119FA2;
+			remoteInfo = "Mouse-Button-Hotkeys";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACEB0642263A554E00119FA2 /* Mouse-Button-Hotkeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mouse-Button-Hotkeys.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEB0645263A554E00119FA2 /* Mouse_Button_HotkeysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mouse_Button_HotkeysApp.swift; sourceTree = "<group>"; };
+		ACEB0647263A554E00119FA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACEB0649263A555000119FA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACEB064C263A555000119FA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACEB064E263A555000119FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEB064F263A555000119FA2 /* Mouse_Button_Hotkeys.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mouse_Button_Hotkeys.entitlements; sourceTree = "<group>"; };
+		ACEB0654263A555000119FA2 /* Mouse-Button-HotkeysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mouse-Button-HotkeysTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEB0658263A555000119FA2 /* Mouse_Button_HotkeysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mouse_Button_HotkeysTests.swift; sourceTree = "<group>"; };
+		ACEB065A263A555000119FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEB065F263A555000119FA2 /* Mouse-Button-HotkeysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mouse-Button-HotkeysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEB0663263A555000119FA2 /* Mouse_Button_HotkeysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mouse_Button_HotkeysUITests.swift; sourceTree = "<group>"; };
+		ACEB0665263A555000119FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACEB063F263A554E00119FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEB0651263A555000119FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEB065C263A555000119FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACEB0639263A554E00119FA2 = {
+			isa = PBXGroup;
+			children = (
+				ACEB0644263A554E00119FA2 /* Mouse-Button-Hotkeys */,
+				ACEB0657263A555000119FA2 /* Mouse-Button-HotkeysTests */,
+				ACEB0662263A555000119FA2 /* Mouse-Button-HotkeysUITests */,
+				ACEB0643263A554E00119FA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACEB0643263A554E00119FA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACEB0642263A554E00119FA2 /* Mouse-Button-Hotkeys.app */,
+				ACEB0654263A555000119FA2 /* Mouse-Button-HotkeysTests.xctest */,
+				ACEB065F263A555000119FA2 /* Mouse-Button-HotkeysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACEB0644263A554E00119FA2 /* Mouse-Button-Hotkeys */ = {
+			isa = PBXGroup;
+			children = (
+				ACEB0645263A554E00119FA2 /* Mouse_Button_HotkeysApp.swift */,
+				ACEB0647263A554E00119FA2 /* ContentView.swift */,
+				ACEB0649263A555000119FA2 /* Assets.xcassets */,
+				ACEB064E263A555000119FA2 /* Info.plist */,
+				ACEB064F263A555000119FA2 /* Mouse_Button_Hotkeys.entitlements */,
+				ACEB064B263A555000119FA2 /* Preview Content */,
+			);
+			path = "Mouse-Button-Hotkeys";
+			sourceTree = "<group>";
+		};
+		ACEB064B263A555000119FA2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACEB064C263A555000119FA2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACEB0657263A555000119FA2 /* Mouse-Button-HotkeysTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACEB0658263A555000119FA2 /* Mouse_Button_HotkeysTests.swift */,
+				ACEB065A263A555000119FA2 /* Info.plist */,
+			);
+			path = "Mouse-Button-HotkeysTests";
+			sourceTree = "<group>";
+		};
+		ACEB0662263A555000119FA2 /* Mouse-Button-HotkeysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACEB0663263A555000119FA2 /* Mouse_Button_HotkeysUITests.swift */,
+				ACEB0665263A555000119FA2 /* Info.plist */,
+			);
+			path = "Mouse-Button-HotkeysUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACEB0641263A554E00119FA2 /* Mouse-Button-Hotkeys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEB0668263A555000119FA2 /* Build configuration list for PBXNativeTarget "Mouse-Button-Hotkeys" */;
+			buildPhases = (
+				ACEB063E263A554E00119FA2 /* Sources */,
+				ACEB063F263A554E00119FA2 /* Frameworks */,
+				ACEB0640263A554E00119FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mouse-Button-Hotkeys";
+			productName = "Mouse-Button-Hotkeys";
+			productReference = ACEB0642263A554E00119FA2 /* Mouse-Button-Hotkeys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACEB0653263A555000119FA2 /* Mouse-Button-HotkeysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEB066B263A555000119FA2 /* Build configuration list for PBXNativeTarget "Mouse-Button-HotkeysTests" */;
+			buildPhases = (
+				ACEB0650263A555000119FA2 /* Sources */,
+				ACEB0651263A555000119FA2 /* Frameworks */,
+				ACEB0652263A555000119FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACEB0656263A555000119FA2 /* PBXTargetDependency */,
+			);
+			name = "Mouse-Button-HotkeysTests";
+			productName = "Mouse-Button-HotkeysTests";
+			productReference = ACEB0654263A555000119FA2 /* Mouse-Button-HotkeysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACEB065E263A555000119FA2 /* Mouse-Button-HotkeysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEB066E263A555000119FA2 /* Build configuration list for PBXNativeTarget "Mouse-Button-HotkeysUITests" */;
+			buildPhases = (
+				ACEB065B263A555000119FA2 /* Sources */,
+				ACEB065C263A555000119FA2 /* Frameworks */,
+				ACEB065D263A555000119FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACEB0661263A555000119FA2 /* PBXTargetDependency */,
+			);
+			name = "Mouse-Button-HotkeysUITests";
+			productName = "Mouse-Button-HotkeysUITests";
+			productReference = ACEB065F263A555000119FA2 /* Mouse-Button-HotkeysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACEB063A263A554E00119FA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					ACEB0641263A554E00119FA2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					ACEB0653263A555000119FA2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = ACEB0641263A554E00119FA2;
+					};
+					ACEB065E263A555000119FA2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = ACEB0641263A554E00119FA2;
+					};
+				};
+			};
+			buildConfigurationList = ACEB063D263A554E00119FA2 /* Build configuration list for PBXProject "Mouse-Button-Hotkeys" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACEB0639263A554E00119FA2;
+			productRefGroup = ACEB0643263A554E00119FA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACEB0641263A554E00119FA2 /* Mouse-Button-Hotkeys */,
+				ACEB0653263A555000119FA2 /* Mouse-Button-HotkeysTests */,
+				ACEB065E263A555000119FA2 /* Mouse-Button-HotkeysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACEB0640263A554E00119FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEB064D263A555000119FA2 /* Preview Assets.xcassets in Resources */,
+				ACEB064A263A555000119FA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEB0652263A555000119FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEB065D263A555000119FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACEB063E263A554E00119FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEB0648263A554E00119FA2 /* ContentView.swift in Sources */,
+				ACEB0646263A554E00119FA2 /* Mouse_Button_HotkeysApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEB0650263A555000119FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEB0659263A555000119FA2 /* Mouse_Button_HotkeysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEB065B263A555000119FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEB0664263A555000119FA2 /* Mouse_Button_HotkeysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACEB0656263A555000119FA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACEB0641263A554E00119FA2 /* Mouse-Button-Hotkeys */;
+			targetProxy = ACEB0655263A555000119FA2 /* PBXContainerItemProxy */;
+		};
+		ACEB0661263A555000119FA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACEB0641263A554E00119FA2 /* Mouse-Button-Hotkeys */;
+			targetProxy = ACEB0660263A555000119FA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ACEB0666263A555000119FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACEB0667263A555000119FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ACEB0669263A555000119FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mouse-Button-Hotkeys/Mouse_Button_Hotkeys.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Mouse-Button-Hotkeys/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Mouse-Button-Hotkeys/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eriberto.guzman.Mouse-Button-Hotkeys";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ACEB066A263A555000119FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mouse-Button-Hotkeys/Mouse_Button_Hotkeys.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Mouse-Button-Hotkeys/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Mouse-Button-Hotkeys/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eriberto.guzman.Mouse-Button-Hotkeys";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ACEB066C263A555000119FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Mouse-Button-HotkeysTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eriberto.guzman.Mouse-Button-HotkeysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mouse-Button-Hotkeys.app/Contents/MacOS/Mouse-Button-Hotkeys";
+			};
+			name = Debug;
+		};
+		ACEB066D263A555000119FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Mouse-Button-HotkeysTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eriberto.guzman.Mouse-Button-HotkeysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mouse-Button-Hotkeys.app/Contents/MacOS/Mouse-Button-Hotkeys";
+			};
+			name = Release;
+		};
+		ACEB066F263A555000119FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Mouse-Button-HotkeysUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eriberto.guzman.Mouse-Button-HotkeysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Mouse-Button-Hotkeys";
+			};
+			name = Debug;
+		};
+		ACEB0670263A555000119FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Mouse-Button-HotkeysUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eriberto.guzman.Mouse-Button-HotkeysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Mouse-Button-Hotkeys";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACEB063D263A554E00119FA2 /* Build configuration list for PBXProject "Mouse-Button-Hotkeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEB0666263A555000119FA2 /* Debug */,
+				ACEB0667263A555000119FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEB0668263A555000119FA2 /* Build configuration list for PBXNativeTarget "Mouse-Button-Hotkeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEB0669263A555000119FA2 /* Debug */,
+				ACEB066A263A555000119FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEB066B263A555000119FA2 /* Build configuration list for PBXNativeTarget "Mouse-Button-HotkeysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEB066C263A555000119FA2 /* Debug */,
+				ACEB066D263A555000119FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEB066E263A555000119FA2 /* Build configuration list for PBXNativeTarget "Mouse-Button-HotkeysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEB066F263A555000119FA2 /* Debug */,
+				ACEB0670263A555000119FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACEB063A263A554E00119FA2 /* Project object */;
+}
